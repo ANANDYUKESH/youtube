@@ -1,0 +1,40 @@
+.video-grid {
+    /* flex: 1; */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .video-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .video-info {
+    margin-top: 10px;
+  }
+  
+  .video-info h3 {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .video-info p {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .video-info span {
+    font-size: 12px;
+    color: gray;
+  }
+  

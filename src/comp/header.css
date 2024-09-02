@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #303030;
+    color: white;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .logo {
+    color: red;
+    margin-left: 15px;
+   }
+  .menu{
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  .header-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    width: 400px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-icon {
+    margin-left: -30px;
+    cursor: pointer;
+  }
+  .audio{
+    margin-left: 30px;
+    font-size: 22px;
+    cursor: pointer;
+  
+  }
+  .header-right .icon {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .topics{
+    display: flex;
+    margin-left: 110px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .topic{
+    color: white;
+    background-color: #464646;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
